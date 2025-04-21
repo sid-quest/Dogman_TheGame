@@ -59,7 +59,7 @@ var gdjs;(function(n){let a;(function(r){class s{constructor(e,t,i){this._linkEl
         }
 
         #watermark span {
-          color: white;
+          color: transparent;
           font-family: 'Tahoma', 'Gill sans', 'Helvetica', 'Arial';
           font-size: ${this._textFontSize}px;
           transition: opacity;
@@ -79,7 +79,7 @@ var gdjs;(function(n){let a;(function(r){class s{constructor(e,t,i){this._linkEl
         }
 
         #watermark svg path {
-          fill: white;
+          fill: transparent;
         }
 
         @media (hover: hover) {
@@ -90,7 +90,7 @@ var gdjs;(function(n){let a;(function(r){class s{constructor(e,t,i){this._linkEl
           }
 
           #watermark:hover span {
-            text-decoration-color: white;
+            text-decoration-color: transparent;
 
             /* For Safari */
             -webkit-text-decoration-color: white;
